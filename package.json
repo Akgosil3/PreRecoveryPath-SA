@@ -1,0 +1,97 @@
+{
+  "name": "prerecoverypath-sa",
+  "version": "1.0.0",
+  "description": "Ethical AI-powered substance abuse prevention for South Africa - prioritizing user autonomy and real-world outcomes",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:ethics": "jest tests/ethics --verbose",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "setup:ethics": "node scripts/setup_ethics.js",
+    "setup:provinces": "node scripts/load_provinces.js",
+    "db:setup": "node scripts/setup_database.js",
+    "db:migrate": "node scripts/migrate_database.js"
+  },
+  "keywords": [
+    "addiction-recovery",
+    "south-africa",
+    "ethical-ai",
+    "popia",
+    "substance-abuse",
+    "mental-health",
+    "cultural-adaptation",
+    "autonomy-preserving",
+    "anti-addiction",
+    "human-first"
+  ],
+  "author": "PreRecoveryPath SA Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akgosil3/PreRecoveryPath-SA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akgosil3/PreRecoveryPath-SA/issues"
+  },
+  "homepage": "https://github.com/Akgosil3/PreRecoveryPath-SA#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      },
+      "src/core/ethics_circuit_breaker.js": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "no-console": "off",
+      "class-methods-use-this": "off"
+    }
+  }
+}

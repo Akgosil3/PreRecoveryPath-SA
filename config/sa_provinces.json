@@ -1,0 +1,119 @@
+{
+  "provinces": {
+    "GP": {
+      "name": "Gauteng",
+      "capital": "Johannesburg",
+      "largest_cities": ["Johannesburg", "Pretoria", "Soweto", "Ekurhuleni"],
+      "languages": ["All 11 official languages", "Multilingual context"],
+      "primary_languages": ["isiZulu", "English", "Afrikaans", "Sesotho", "Setswana"],
+      "population": "~15.5 million",
+      "context": "Urban, diverse, economic hub",
+      "cultural_notes": "Most urbanized and culturally diverse province. Economic pressure, fast-paced. Nyaope epidemic in townships.",
+      "substance_abuse_patterns": ["Nyaope (heroin cocktail)", "Alcohol", "Cannabis", "Cocaine"],
+      "support_services": "Abundant - multiple SANCA branches, AA/NA, private facilities"
+    },
+    "WC": {
+      "name": "Western Cape",
+      "capital": "Cape Town",
+      "largest_cities": ["Cape Town", "George", "Stellenbosch"],
+      "languages": ["Afrikaans", "English", "isiXhosa"],
+      "primary_languages": ["Afrikaans", "English", "isiXhosa"],
+      "population": "~7 million",
+      "context": "Cape colored identity, Afrikaner culture, Xhosa communities",
+      "cultural_notes": "Cape colored identity distinct. Tik (meth) crisis in colored communities. Gang involvement. Historic inequality (Cape Flats).",
+      "substance_abuse_patterns": ["Tik (methamphetamine) - major crisis", "Alcohol", "Cannabis"],
+      "support_services": "Good - SANCA Western Cape, community programs, faith-based"
+    },
+    "KZN": {
+      "name": "KwaZulu-Natal",
+      "capital": "Pietermaritzburg",
+      "largest_cities": ["Durban", "Pietermaritzburg", "Richards Bay"],
+      "languages": ["isiZulu", "English"],
+      "primary_languages": ["isiZulu", "English"],
+      "population": "~11.5 million",
+      "context": "Zulu culture predominant, traditional structures strong",
+      "cultural_notes": "Strong Zulu cultural identity. Traditional healing primary in rural areas. Elder respect critical. Indian/Asian community in Durban. HIV/AIDS intersection.",
+      "substance_abuse_patterns": ["Alcohol (traditional and commercial)", "Cannabis", "Nyaope"],
+      "support_services": "Moderate - SANCA Durban, traditional healers, faith communities"
+    },
+    "EC": {
+      "name": "Eastern Cape",
+      "capital": "Bhisho",
+      "largest_cities": ["Port Elizabeth/Gqeberha", "East London", "Mthatha"],
+      "languages": ["isiXhosa", "English", "Afrikaans"],
+      "primary_languages": ["isiXhosa", "English"],
+      "population": "~6.7 million",
+      "context": "Rural, high poverty, Xhosa culture strong",
+      "cultural_notes": "Rural with high poverty. Xhosa traditions strong. Initiation practices (ulwaluko). High unemployment and urban migration. Infrastructure challenges.",
+      "substance_abuse_patterns": ["Alcohol - primary", "Traditional beer vs commercial alcohol", "Limited access to other substances"],
+      "support_services": "Limited - SANCA limited reach, traditional healers primary, church communities"
+    },
+    "LP": {
+      "name": "Limpopo",
+      "capital": "Polokwane",
+      "largest_cities": ["Polokwane", "Thohoyandou", "Tzaneen"],
+      "languages": ["Sepedi", "Xitsonga", "Tshivenda", "English"],
+      "primary_languages": ["Sepedi", "Xitsonga", "Tshivenda"],
+      "population": "~6 million",
+      "context": "Most rural, multiple distinct cultural groups, traditional leadership strong",
+      "cultural_notes": "Multiple cultural groups. Strong traditional practices. Zimbabwe/Mozambique borders. Infrastructure challenges. Traditional healing central.",
+      "substance_abuse_patterns": ["Alcohol", "Cross-border dynamics", "Limited formal treatment"],
+      "support_services": "Very limited - traditional healers primary, community health workers"
+    },
+    "MP": {
+      "name": "Mpumalanga",
+      "capital": "Mbombela (Nelspruit)",
+      "largest_cities": ["Mbombela", "Witbank", "Middelburg"],
+      "languages": ["siSwati", "isiZulu", "Sepedi", "isiNdebele", "English"],
+      "primary_languages": ["siSwati", "isiZulu", "Sepedi"],
+      "population": "~4.7 million",
+      "context": "Mining communities, borders Mozambique and eSwatini, mix urban/rural",
+      "cultural_notes": "Mining communities. Migrant labor patterns. Cross-border drug trade. Tourism (Kruger). siSwati culture important but small.",
+      "substance_abuse_patterns": ["Mining community challenges", "Cross-border drugs", "Alcohol"],
+      "support_services": "Limited - some services in urban areas, traditional healers"
+    },
+    "NW": {
+      "name": "North West",
+      "capital": "Mahikeng",
+      "largest_cities": ["Rustenburg", "Mahikeng", "Klerksdorp"],
+      "languages": ["Setswana", "Afrikaans", "English"],
+      "primary_languages": ["Setswana", "Afrikaans"],
+      "population": "~4.1 million",
+      "context": "Platinum belt mining, Tswana culture and kgotla system, rural and mining towns",
+      "cultural_notes": "Platinum mining communities. Tswana kgotla (community gathering) system. Traditional structures respected. Migrant labor.",
+      "substance_abuse_patterns": ["Mining community alcohol", "Cannabis", "Migrant labor disruption"],
+      "support_services": "Limited - some services in mining areas, traditional structures"
+    },
+    "FS": {
+      "name": "Free State",
+      "capital": "Bloemfontein",
+      "largest_cities": ["Bloemfontein", "Welkom", "Bethlehem"],
+      "languages": ["Sesotho", "Afrikaans", "isiXhosa", "English"],
+      "primary_languages": ["Sesotho", "Afrikaans"],
+      "population": "~2.9 million",
+      "context": "Agricultural, Basotho and Afrikaner communities, rural conservative",
+      "cultural_notes": "Farming communities. Basotho culture. Afrikaner farming areas. Rural, conservative. High unemployment. Farm worker vulnerability.",
+      "substance_abuse_patterns": ["Alcohol primary", "Farm worker vulnerability", "Rural isolation"],
+      "support_services": "Limited - church communities strong, SANCA presence limited"
+    },
+    "NC": {
+      "name": "Northern Cape",
+      "capital": "Kimberley",
+      "largest_cities": ["Kimberley", "Upington", "Kuruman"],
+      "languages": ["Afrikaans", "Setswana", "isiXhosa", "English", "San languages"],
+      "primary_languages": ["Afrikaans", "Setswana"],
+      "population": "~1.3 million",
+      "context": "Least populated, vast area, mining towns, San indigenous communities, desert",
+      "cultural_notes": "Least populated, largest province. Vast distances. Mining towns. San (indigenous) communities vulnerable and underserved. Geographic isolation.",
+      "substance_abuse_patterns": ["Alcohol primary", "Geographic isolation", "Mining towns", "San populations vulnerable"],
+      "support_services": "Very limited - vast distances, some services in Kimberley, mobile outreach needed"
+    }
+  },
+  "metadata": {
+    "total_provinces": 9,
+    "total_languages": 11,
+    "source": "PreRecoveryPath SA Cultural Research",
+    "last_updated": "2025-12",
+    "note": "This configuration supports culturally appropriate substance abuse support across South Africa's diverse provinces"
+  }
+}
