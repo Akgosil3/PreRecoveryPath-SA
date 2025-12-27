@@ -296,7 +296,7 @@ describe('Privacy and POPIA Compliance Tests', () => {
     test('should disclose any data sharing partnerships', () => {
       const partnerships = {
         SANCA: {
-          datashared: 'Referral information only (with consent)',
+          dataShared: 'Referral information only (with consent)',
           purpose: 'Connect to treatment services',
           consentRequired: true
         }
