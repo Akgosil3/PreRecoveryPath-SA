@@ -1,0 +1,100 @@
+{
+  "crisis_hotlines": {
+    "sadag": {
+      "name": "South African Depression and Anxiety Group",
+      "phone": "0800 567 567",
+      "availability": "24/7",
+      "services": ["Mental health", "Crisis intervention", "Substance abuse support"],
+      "languages": ["English", "Afrikaans"]
+    },
+    "sanca_national": {
+      "name": "SANCA National",
+      "phone": "0861 472 622",
+      "availability": "Business hours",
+      "services": ["Substance abuse treatment", "Counseling", "Referrals"],
+      "languages": ["English", "Afrikaans"]
+    },
+    "lifeline": {
+      "name": "Lifeline South Africa",
+      "phone": "0861 322 322",
+      "availability": "24/7",
+      "services": ["Crisis counseling", "Suicide prevention"],
+      "languages": ["English", "Afrikaans"]
+    },
+    "emergency": {
+      "name": "Emergency Services",
+      "phone": "10111",
+      "alternate": "112",
+      "availability": "24/7",
+      "services": ["Police", "Medical emergency"]
+    }
+  },
+  "sanca_branches": {
+    "gauteng": [
+      {
+        "name": "SANCA Gauteng - Johannesburg",
+        "phone": "011 892 3829",
+        "address": "38 Geldenhuys Road, Parkview, Johannesburg",
+        "services": ["Outpatient", "Inpatient", "Family support", "Aftercare"]
+      }
+    ],
+    "western_cape": [
+      {
+        "name": "SANCA Western Cape",
+        "phone": "021 447 8314",
+        "address": "Cape Town",
+        "services": ["Outpatient", "Prevention", "Community programs"]
+      }
+    ],
+    "kwazulu_natal": [
+      {
+        "name": "SANCA Durban",
+        "phone": "031 301 2844",
+        "address": "45 Dorothy Nyembe Street, Durban",
+        "services": ["Outpatient", "Inpatient", "Family support"]
+      }
+    ]
+  },
+  "aa_na_info": {
+    "aa_south_africa": {
+      "name": "Alcoholics Anonymous South Africa",
+      "website": "https://www.aasouthafrica.org.za",
+      "phone": "0861 HELP AA (0861 435 722)",
+      "meeting_finder": "https://www.aasouthafrica.org.za/meetings"
+    },
+    "na_south_africa": {
+      "name": "Narcotics Anonymous South Africa",
+      "website": "https://na.org.za",
+      "phone": "083 900 6962",
+      "meeting_finder": "https://na.org.za/meetings"
+    }
+  },
+  "mental_health_services": {
+    "government_helpline": {
+      "name": "Department of Health Mental Health Line",
+      "phone": "0800 567 567",
+      "availability": "24/7",
+      "cost": "Free"
+    }
+  },
+  "traditional_healing": {
+    "traditional_healers_org": {
+      "name": "Traditional Health Practitioners Council of South Africa",
+      "website": "https://www.thpcsa.co.za",
+      "phone": "012 796 4567",
+      "note": "Can help locate registered traditional healers"
+    }
+  },
+  "faith_based_support": {
+    "note": "Faith-based recovery support available through local churches, mosques, temples. Contact local faith communities for specific programs."
+  },
+  "youth_support": {
+    "childline": {
+      "name": "Childline South Africa",
+      "phone": "0800 055 555",
+      "availability": "24/7",
+      "services": ["Youth crisis support", "Counseling"],
+      "age_range": "Under 18"
+    }
+  }
+}

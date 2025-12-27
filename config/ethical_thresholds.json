@@ -1,0 +1,81 @@
+{
+  "ethical_thresholds": {
+    "session_limits": {
+      "warning_minutes": 10,
+      "daily_maximum_minutes": 30,
+      "max_daily_sessions": 5
+    },
+    "ai_usage": {
+      "sessions_before_human_required": 3,
+      "max_ai_to_human_ratio": 0.7
+    },
+    "crisis_detection": {
+      "immediate": 0.95,
+      "high": 0.80,
+      "medium": 0.60,
+      "low": 0.40
+    },
+    "engagement_limits": {
+      "engagement_to_prevention_max_ratio": 1.5,
+      "notification_daily_max": 2,
+      "notification_min_hours_between": 4
+    }
+  },
+  "vulnerability_protections": {
+    "early_recovery": {
+      "days_threshold": 90,
+      "crisis_threshold_modifier": -0.15,
+      "human_oversight_required": true,
+      "session_limit_modifier": -5
+    },
+    "youth": {
+      "age_max": 25,
+      "gamification_allowed": false,
+      "parental_notification_option": true,
+      "screen_time_warnings": true
+    },
+    "elderly": {
+      "age_min": 65,
+      "ui_simplification": true,
+      "large_text_default": true,
+      "scam_protection": true
+    },
+    "low_literacy": {
+      "max_reading_level": 8,
+      "visual_aids_required": true,
+      "audio_options": true
+    }
+  },
+  "cultural_sensitivity": {
+    "languages_supported": 11,
+    "provinces_supported": 9,
+    "cultural_review_required": true,
+    "traditional_healing_integration": true
+  },
+  "data_privacy": {
+    "consent_granularity": "per_data_type",
+    "retention_days_default": 90,
+    "auto_deletion": true,
+    "geographic_precision": "municipality",
+    "popia_compliant": true
+  },
+  "prohibited_patterns": [
+    "infinite_scroll",
+    "auto_play",
+    "variable_rewards",
+    "fomo_triggers",
+    "notification_bombardment",
+    "streak_mechanics",
+    "leaderboards",
+    "artificial_urgency",
+    "hidden_exits",
+    "dark_patterns"
+  ],
+  "required_elements": [
+    "prominent_exit_button",
+    "transparent_reasoning",
+    "visible_session_timer",
+    "alternative_options",
+    "user_override_capability"
+  ]
+}
